@@ -1,0 +1,115 @@
+body {
+    /* background-color: blanchedalmond; */
+    background: linear-gradient(to top right, #f9fbfb 0%, rgb(177, 98, 225) 100%);
+    text-align:center;
+ 
+}
+h1 {
+    text-align: center;
+    margin: 10vh 0 0 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: rgb(60, 30, 136);
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.center {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    table-layout: initial;
+    margin: 40px auto;
+    border-style: groove;
+    /* background-color: #d873fd; */
+    background-color: #9099c3;
+    color: black;
+}
+
+table.list {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 80%;
+}
+
+td {
+    /* border: 5px solid #e985e2; */
+    border: 5px solid #12041c;
+    text-align: left;
+    padding: 8px 15px;
+    /* background-color: rgb(241 208 255); */
+    background-color: rgb(246, 243, 248);
+    color: #000000;
+}
+
+tr:nth-child(even),
+table.list thread>tr {
+    background-color: #d0f1bf;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px 10px;
+    margin: 0px 0 10px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 6px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background: rgb(58, 138, 235);
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border:yellow;
+    border-radius: 1cm;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover {
+    background: rgb(69, 253, 84);
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background: #548acc;
+    color: white;
+    font-size: 1.2rem;
+    font-family:'Times New Roman', Times, serif;
+    border: 2px solid #8181dd;
+}
+
+tbody {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.input-part {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+}
+
+button {
+    /* background: #fb50de; */
+    background-color: #30b8d7;
+    color: black;
+    padding: 6px 12px;
+    margin: 10px 0 5px;
+    display: inline-block;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    outline: none;
+}
